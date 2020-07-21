@@ -11,6 +11,11 @@ public class BreadFactory {
         return new Bread();
     }
 
+    /**
+     * 第一种写法，需要传入类型
+     * @param type
+     * @return
+     */
     public static IBread create(int type) {
         switch (type) {
             case 1:
@@ -22,5 +27,25 @@ public class BreadFactory {
             default:
                 return new Bread();
         }
+    }
+
+    /**
+     * 第二种写法，需要传入类型
+     * @param clazz
+     * @param <T>
+     * @return
+     */
+    public static <T extends IBread> T create(Class clazz) {
+        IBread bread = null;
+        try {
+            bread = (IBread) Class.forName(clazz.getName()).newInstance();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+        return (T) bread;
     }
 }

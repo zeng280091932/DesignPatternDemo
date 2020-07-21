@@ -1,3 +1,4 @@
 rootProject.name='DesignPatternDemo'
 include ':app'
 include ':simplefactory'
+include ':abstractfactory'
