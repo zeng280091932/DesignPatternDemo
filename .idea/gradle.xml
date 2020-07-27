@@ -18,6 +18,7 @@
             <option value="$PROJECT_DIR$/prototype" />
             <option value="$PROJECT_DIR$/simplefactory" />
             <option value="$PROJECT_DIR$/singleton" />
+            <option value="$PROJECT_DIR$/strategy" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
