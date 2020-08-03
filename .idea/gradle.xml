@@ -16,6 +16,7 @@
             <option value="$PROJECT_DIR$/builder" />
             <option value="$PROJECT_DIR$/chain" />
             <option value="$PROJECT_DIR$/composite" />
+            <option value="$PROJECT_DIR$/flyweight" />
             <option value="$PROJECT_DIR$/observer" />
             <option value="$PROJECT_DIR$/prototype" />
             <option value="$PROJECT_DIR$/simplefactory" />
