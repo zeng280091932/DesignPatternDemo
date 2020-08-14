@@ -1,0 +1,9 @@
+package com.beauney.command;
+
+/**
+ * @author zengjiantao
+ * @since 2020-08-12
+ */
+public class Content {
+    String msg = "hello everybody";
+}

@@ -12,9 +12,12 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/abstractfactory" />
+            <option value="$PROJECT_DIR$/adapter" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/bridge" />
             <option value="$PROJECT_DIR$/builder" />
             <option value="$PROJECT_DIR$/chain" />
+            <option value="$PROJECT_DIR$/command" />
             <option value="$PROJECT_DIR$/composite" />
             <option value="$PROJECT_DIR$/flyweight" />
             <option value="$PROJECT_DIR$/iterator" />
@@ -23,7 +26,9 @@
             <option value="$PROJECT_DIR$/proxy" />
             <option value="$PROJECT_DIR$/simplefactory" />
             <option value="$PROJECT_DIR$/singleton" />
+            <option value="$PROJECT_DIR$/state" />
             <option value="$PROJECT_DIR$/strategy" />
+            <option value="$PROJECT_DIR$/templatemethod" />
             <option value="$PROJECT_DIR$/visitor" />
           </set>
         </option>

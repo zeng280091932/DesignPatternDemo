@@ -1,6 +1,5 @@
 package com.beauney.iterator.v2;
 
-import java.util.ArrayList;
 
 /**
  * @author zengjiantao
